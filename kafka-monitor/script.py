@@ -13,7 +13,7 @@ while(1):
                 print(t)
         except zc.lockfile.LockError:
                 print("not able to lock the file_going to sleep")
-                time.sleep(600)
+                time.sleep(300)
         #the script completed successfully
         else:
                 lock.close()
